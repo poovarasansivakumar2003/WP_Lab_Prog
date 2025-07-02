@@ -21,10 +21,10 @@ Program to keep track of the number of visitors visited the webpage and display 
 ```html
 <html>
   <body>
+    <h1>Visitor Count</h1>
+    <p>Click the button below to see the number of visitors to this page.</p>
     <form action="http://localhost/cgi-bin/2b.pl">
-      <center>
         <input type="submit" value="Show Number of Visitors" />
-      </center>
     </form>
   </body>
 </html>

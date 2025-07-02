@@ -22,14 +22,14 @@ command executed.
 ```html
 <html>
   <body>
+    <h1>Execute UNIX Command</h1>
+    <p>Enter a UNIX command to execute:</p>
     <form action="http://localhost/cgi-bin/1b.pl">
-      <label for="com">Enter UNIX Command:</label>
       <input type="text" id="com" name="com"/>
       <input type="submit" value="Submit" />
     </form>
   </body>
 </html>
-
 ```
 
 **File Location**: Save as `1b.html` in `C:\xampp\htdocs\`

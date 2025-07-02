@@ -26,12 +26,11 @@ Program to accept the User Name and display a greeting message.
 ```html
 <html>
   <body>
+    <h1>Welcome to the Name Entry Page</h1>
+    <p>Please enter your name to proceed:</p>
     <form action="http://localhost/cgi-bin/2a.pl">
-      <center>
-        <h2>Enter your name:</h2>
         <input type="text" name="name" />
         <input type="submit" value="Submit" />
-      </center>
     </form>
   </body>
 </html>
