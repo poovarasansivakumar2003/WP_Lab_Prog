@@ -21,14 +21,14 @@ command executed.
 ### HTML File (1b.html)
 ```html
 <html>
-  <body>
-    <h1>Execute UNIX Command</h1>
-    <p>Enter a UNIX command to execute:</p>
-    <form action="http://localhost/cgi-bin/1b.pl">
-      <input type="text" id="com" name="com"/>
-      <input type="submit" value="Submit" />
-    </form>
-  </body>
+<body>
+  <h1>Execute UNIX Command</h1>
+  <p>Enter a UNIX command to execute:</p>
+  <form action="http://localhost/cgi-bin/1b.pl">
+    <input type="text" id="com" name="com" />
+    <input type="submit" value="Submit" />
+  </form>
+</body>
 </html>
 ```
 
@@ -54,7 +54,7 @@ exit(0);
    - Click "Start" next to Apache
 
 2. **Access the Program**
-   - Open web browser
+   - Open your web browser
    - Navigate to: `http://localhost/1b.html`
 
 3. **Execute the Program**
@@ -72,5 +72,8 @@ exit(0);
 
 ## Output
 
-![output 1](./o1.png)
-![output 2](./o2.png)
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+</p>

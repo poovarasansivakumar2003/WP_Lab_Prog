@@ -20,13 +20,13 @@ Program to keep track of the number of visitors visited the webpage and display 
 ### HTML File (2b.html)
 ```html
 <html>
-  <body>
-    <h1>Visitor Count</h1>
-    <p>Click the button below to see the number of visitors to this page.</p>
-    <form action="http://localhost/cgi-bin/2b.pl">
-        <input type="submit" value="Show Number of Visitors" />
-    </form>
-  </body>
+<body>
+  <h1>Visitor Count</h1>
+  <p>Click the button below to see the number of visitors to this page.</p>
+  <form action="http://localhost/cgi-bin/2b.pl">
+    <input type="submit" value="Show Number of Visitors" />
+  </form>
+</body>
 </html>
 ```
 
@@ -72,7 +72,7 @@ print "<html><body><center><h2>Visitor Count</h2><p>This page has been visited <
    - Click "Start" next to Apache
 
 2. **Access the Program**
-   - Open web browser
+   - Open your web browser
    - Navigate to: `http://localhost/2b.html`
 
 3. **Execute the Program**
@@ -86,5 +86,8 @@ print "<html><body><center><h2>Visitor Count</h2><p>This page has been visited <
 
 ## Output 
 
-![output 1](./o1.png)
-![output 2](./o2.png)
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+</p>

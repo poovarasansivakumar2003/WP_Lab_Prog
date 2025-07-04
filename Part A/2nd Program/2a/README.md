@@ -25,14 +25,14 @@ Program to accept the User Name and display a greeting message.
 ### HTML File (2a.html)
 ```html
 <html>
-  <body>
-    <h1>Welcome to the Name Entry Page</h1>
-    <p>Please enter your name to proceed:</p>
-    <form action="http://localhost/cgi-bin/2a.pl">
-        <input type="text" name="name" />
-        <input type="submit" value="Submit" />
-    </form>
-  </body>
+<body>
+  <h1>Welcome to the Name Entry Page</h1>
+  <p>Please enter your name to proceed:</p>
+  <form action="http://localhost/cgi-bin/2a.pl">
+    <input type="text" name="name" />
+    <input type="submit" value="Submit" />
+  </form>
+</body>
 </html>
 ```
 
@@ -65,8 +65,14 @@ print header(),"<html><head><title>Greeting</title></head><body><center><h2>",
 - The output is displayed as a personalized welcome message.
 
 ## Output
-![output 1](./o1.png)
-![output 2](./o2.png)
-![output 3](./o3.png)
-![output 4](./o4.png)
-![output 5](./o5.png)
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+  <br>
+  <img src="./o3.png" alt="Output 2" width="70%">
+  <br>
+  <img src="./o4.png" alt="Output 2" width="70%">
+  <br>
+  <img src="./o5.png" alt="Output 2" width="70%">
+</p>

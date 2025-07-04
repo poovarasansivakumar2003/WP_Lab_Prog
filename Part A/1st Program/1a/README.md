@@ -21,11 +21,11 @@ Display various Server Information like Server Name, Server Software, Server Pro
 ```html
 <html>
 <body>
-    <h1>Server Information</h1>
-    <p>Click to display server info:</p>
-    <form action="http://localhost/cgi-bin/1a.pl">
-        <input type="submit" value="Show_Server_Info">
-    </form>
+  <h1>Server Information</h1>
+  <p>Click to display server info:</p>
+  <form action="http://localhost/cgi-bin/1a.pl">
+    <input type="submit" value="Show_Server_Info">
+  </form>
 </body>
 </html>
 ```
@@ -54,7 +54,7 @@ print "</table></center></body></html>\n";
    - Click "Start" next to Apache
 
 2. **Access the Program**
-   - Open web browser
+   - Open your web browser
    - Navigate to: `http://localhost/1a.html`
 
 3. **Execute the Program**
@@ -79,5 +79,8 @@ print "</table></center></body></html>\n";
 
 ## Output 
 
-![output 1](./o1.png)
-![output 2](./o2.png)
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+</p>

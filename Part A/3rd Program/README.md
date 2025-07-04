@@ -21,10 +21,10 @@ Program to display a greeting based on the access time of the Web server. Also t
 ```html
 <html>
 <body>
+  <h1>Greeting Page</h1>
+  <p>Click the button below to see a greeting message.</p>
   <form action="http://localhost/cgi-bin/3.pl">
-    <center>
-      <input type="submit" value="Show Greeting" />
-    </center>
+    <input type="submit" value="Show Greeting" />
   </form>
 </body>
 </html>
@@ -64,7 +64,7 @@ print header,
    - Click "Start" next to Apache
 
 2. **Access the Program**
-   - Open web browser
+   - Open your web browser
    - Navigate to: `http://localhost/3.html`
 
 3. **Execute the Program**
@@ -80,5 +80,8 @@ print header,
 
 ## Output 
 
-![output 1](./o1.png)
-![output 2](./o2.png)
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+</p>

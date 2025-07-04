@@ -59,11 +59,11 @@ print header(-Refresh => 1),
    - Click "Start" next to Apache
 
 2. **Access the Program**
-   - Open web browser
+   - Open your web browser
    - Navigate to: `http://localhost/4.html`
 
 3. **Execute the Program**
-
+   - Click the "Click_to_display_time" button. The server time will be displayed and will update every second automatically.
 
 ## Code Explanation
 
@@ -75,5 +75,8 @@ print header(-Refresh => 1),
 
 ## Output 
 
-![output 1](./o1.png)
-![output 2](./o2.png)
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+</p>
