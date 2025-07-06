@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Online Resume Builder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background: linear-gradient(120deg, #e3eafc 0%, #f8fafd 100%);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .resume-container {
+            background: #fff;
+            width: 100%;
+            max-width: 520px;
+            min-width: 320px;
+            margin: 32px 0;
+            padding: 32px 36px 28px 36px;
+            border-radius: 14px;
+            box-shadow: 0 6px 32px rgba(44,62,80,0.13);
+            transition: box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .resume-container:hover {
+            box-shadow: 0 10px 40px rgba(44,62,80,0.18);
+        }
+        h2 {
+            text-align: center;
+            color: #1a237e;
+            margin-bottom: 26px;
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+        label {
+            display: block;
+            margin-bottom: 7px;
+            color: #263238;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 12px 14px;
+            margin-bottom: 18px;
+            border: 1.5px solid #cfd8dc;
+            border-radius: 7px;
+            font-size: 1rem;
+            background: #f7fafc;
+            transition: border 0.2s, background 0.2s;
+            box-sizing: border-box;
+        }
+        input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+            border: 1.5px solid #1976d2;
+            outline: none;
+            background: #fff;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 48px;
+            font-family: inherit;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background: linear-gradient(90deg, #1976d2 60%, #1565c0 100%);
+            color: #fff;
+            border: none;
+            padding: 15px 0;
+            border-radius: 7px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+            margin-top: 8px;
+            margin-bottom: 0;
+        }
+        input[type="submit"]:hover {
+            background: linear-gradient(90deg, #125ea7 60%, #0d47a1 100%);
+            box-shadow: 0 4px 16px rgba(25, 118, 210, 0.13);
+        }
+        @media (max-width: 700px) {
+            .resume-container {
+                max-width: 98vw;
+                padding: 18px 4vw 18px 4vw;
+                margin: 18px 0;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            input[type="text"], input[type="email"], textarea {
+                font-size: 0.97rem;
+                padding: 10px 8px;
+            }
+        }
+        @media (max-width: 400px) {
+            .resume-container {
+                padding: 8px 2vw 8px 2vw;
+            }
+        }
+        ::placeholder {
+            color: #b0b8c1;
+            opacity: 1;
+        }
+        form {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <h2>Fill Your Resume Details</h2>
+        <form action="/cgi-bin/generate_resume.pl" method="POST" autocomplete="on">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required autocomplete="name">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required autocomplete="email">
+
+            <label for="phone">Phone:</label>
+            <input type="text" name="phone" id="phone" required autocomplete="tel">
+
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address" required autocomplete="street-address">
+
+            <label for="summary">Summary:</label>
+            <textarea name="summary" id="summary" rows="3" required placeholder="Brief professional summary"></textarea>
+
+            <label for="skills">Skills:</label>
+            <input type="text" name="skills" id="skills" required placeholder="Comma separated">
+
+            <label for="education">Education:</label>
+            <input type="text" name="education" id="education" required placeholder="Your highest degree, university">
+
+            <label for="experience">Experience:</label>
+            <textarea name="experience" id="experience" rows="3" placeholder="One per line"></textarea>
+
+            <label for="projects">Projects:</label>
+            <textarea name="projects" id="projects" rows="3" placeholder="One per line"></textarea>
+
+            <label for="certifications">Certifications:</label>
+            <input type="text" name="certifications" id="certifications" placeholder="Optional">
+
+            <label for="hobbies">Hobbies:</label>
+            <input type="text" name="hobbies" id="hobbies" placeholder="Optional">
+
+            <input type="submit" value="Generate Resume">
+        </form>
+    </div>
+</body>
+</html>
