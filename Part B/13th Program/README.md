@@ -90,6 +90,14 @@ Program to create a session and display session information viz. session ID, cre
 1. Right-click the project > Run As > Run on Server
 2. Choose Tomcat v9.0
 3. Open a browser and go to:  
-   `http://localhost:8080/Program13/session.html`
+   `http://localhost:8080/Program![alt text](image.png)13/session.html`
 
 ---
+
+## Output 
+
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+</p>

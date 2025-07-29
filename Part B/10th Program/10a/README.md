@@ -89,3 +89,11 @@ A simple web application to accept a username and display a personalized greetin
    `http://localhost:8080/Program10a/greeting.html`
 
 ---
+
+## Output 
+
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+</p>

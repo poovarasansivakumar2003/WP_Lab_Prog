@@ -101,3 +101,11 @@ Program to accept username and address and display the webpage by passing parame
 4. Enter a username and address and submit to see the result.
 
 ---
+
+## Output 
+
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+</p>

@@ -87,6 +87,14 @@ Program to request server information viz. Request Method, URI, Protocol, and Re
 1. Right-click the project > Run As > Run on Server
 2. Choose Tomcat v9.0
 3. Open a browser and go to:  
-   `http://localhost:8080/Program14/server.html`
+   `http://localhost:8080/Program14![![alt text](image-1.png)](image.png)/server.html`
 
 ---
+
+## Output 
+
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+</p>

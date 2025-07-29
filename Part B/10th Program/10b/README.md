@@ -97,3 +97,11 @@ Program to change the background color of the page based on the color selected b
    `http://localhost:8080/Program10b/color.html`
 
 ---
+
+## Output 
+
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+</p>

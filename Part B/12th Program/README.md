@@ -96,6 +96,16 @@ Program to create and display a cookie.
 1. Right-click the project > Run As > Run on Server
 2. Choose Tomcat v9.0
 3. Open a browser and go to:  
-   `http://localhost:8080/Program12/cookies.html`
+   `http://localhost:8080/Program1![alt text](image.png)2/cookies.html`
 
 ---
+
+## Output 
+
+<p align="center">
+  <img src="./o1.png" alt="Output 1" width="70%">
+  <br>
+  <img src="./o2.png" alt="Output 2" width="70%">
+  <br>
+  <img src="./o3.png" alt="Output 2" width="70%">
+</p>
