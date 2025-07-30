@@ -27,7 +27,6 @@ Program to display a digital clock which displays the current time of the server
     <input type=submit value=Click_to_display_time>
   </form>
 </body>
-</form>
 </html>
 ```
 
